@@ -40,7 +40,9 @@
     //[self Question7];
     //[self Question8];
     //[self Question9];
-    [self Question10];
+//    [self Question10]; // for question 10
+    [self Question11];
+    
     return YES;
 }
 
@@ -267,6 +269,10 @@
     }
     
     printf("%lld",sum);
+}
+
+- (void) Question11
+{
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
